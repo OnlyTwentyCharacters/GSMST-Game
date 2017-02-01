@@ -6,8 +6,8 @@ default: all
 .PHONY: all
 all: $(OBJ)
 
-$(OBJ): main.o
-	g++ main.o -w -o $(OBJ)
+$(OBJ): main.o Player.o
+	g++ main.o Player.o -w -o $(OBJ)
 
 .PHONY: clean
 clean:
@@ -15,3 +15,7 @@ clean:
 	rm -f $(OBJ)
 
 main.o: main.cpp
+	g++ -c main.cpp
+
+Player.o: lib/Player.cpp
+	g++ -c lib/Player.cpp
