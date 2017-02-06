@@ -65,12 +65,12 @@ void intro() {
     cout << "homework is extremely hard. You are not looking forward to this, so it is making" << endl;
     cout << "you sad." << endl << endl;
     Sleep(2);
-    cout << "You go throught Summer Stem and get scared because you recieve stacks of homework" << endl;
+    cout << "You go through Summer STEM and get scared because you recieve stacks of homework" << endl;
     cout << "-----------------------------------------------------------------------------" << endl;
     Sleep(2);
-    cout << "you feel ancious on your first day of school. You hope your teacher will be nice" << endl;
+    cout << "you feel anxious on your first day of school. You hope your teacher will be nice" << endl;
     cout << "and not strange. As your mom pulls up to the school, you feel your heart pounding" << endl;
-    cout << "like nothing else you have every felt. Thankfuly, there are people inside the" << endl;
+    cout << "like nothing else you have every felt. Thankfully, there are people inside the" << endl;
     cout << "building that can help you find yourself around. You are directed towards a paper" << endl;
     cout << "taped to a wall. You walk up to it. The paper has several names on it, one of them" << endl;
     cout << "being yours. You look at the teacher beside it and see your homeroom teacher's" << endl;
@@ -102,7 +102,7 @@ bool chemistry() {
     cout << "That?" << endl << endl;
     Sleep(1);
     cout << "You think about it for a while, and you can't figure it our. Suddenly, you hear Mr." << endl;
-    cout << "Mr. Calhoun threaten that he is going to start calling on people to start answering!!" << endl << endl;
+    cout << "Calhoun threaten that he is going to start calling on people to start answering!!" << endl << endl;
     
     string answer = getInput("So, what do you do?\n\na) Write 'Answer Choice A'\nb) Write 'The answer is 16.72 moles of substance 'O' because 2 divided by 17 is 4'\nc) Sit and wait and hope he doesn't call on you\nd) Laugh\n\n");
     if (answer == "a") {
